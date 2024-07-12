@@ -1,0 +1,104 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.photo-gallery {
+    color: #313437;
+    background-color: #fff;
+}
+
+    .photo-gallery p {
+        color: #7d8285;
+    }
+
+    .photo-gallery h2 {
+        font-weight: bold;
+        margin-bottom: 40px;
+        padding-top: 40px;
+        color: inherit;
+    }
+
+@media (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.photo-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+}
+
+    .photo-gallery .intro p {
+        margin-bottom: 0;
+    }
+
+.photo-gallery .photos {
+    padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+    .photo-gallery .item img {
+        width: 400px; /* Standart genişlik */
+        height: 400px; /* Standart yükseklik */
+        object-fit: cover; /* Resimlerin düzgün bir şekilde kırpılması için */
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+    }
+
+    .photo-gallery .item:hover img {
+        transform: scale(1.05);
+    }
+
